@@ -11,9 +11,9 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"> </property>
 		<property name="url" value="jdbc:mysql://c1lv5oeqjwph.us-east-2.rds.amazonaws.com:3306/aa1ohh22znrupot"></property>
-		 
 		<property name="username" value="root"></property>
 		<property name="password" value="password"></property>
+		
 		<!--<property name="url" value="jdbc:mysql://jegapriya.eastus.cloudapp.azure.com:3306/spring"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="root"></property>-->
